@@ -1,0 +1,20 @@
+{
+    "name": "jobrandon/m2-cms-restriction",
+    "description": "CMS Page Restriction that makes CMS pages only visible to login customers",
+    "require": {
+        "php": "~8.1.0||~8.2.0"
+    },
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Jobran\\CmsRestriction\\": ""
+        }
+    }
+}

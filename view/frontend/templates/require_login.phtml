@@ -1,0 +1,8 @@
+<?php
+/** @var \Jobran\CmsRestriction\Block\RequireLogin $block */
+?>
+<div style="margin: 20px; display: block; text-align: center; padding-top: 20px;">
+    <span style="font-size: 1.8rem;">
+        <?= __('Please login to access this page. <a href="%1">Click here</a>', $block->getLoginUrl()) ?>
+    </span>
+</div>
